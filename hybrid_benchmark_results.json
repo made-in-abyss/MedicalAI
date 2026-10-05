@@ -1,0 +1,100 @@
+[
+  {
+    "drug": "Paracetamol (Acetaminophen) 500 mg",
+    "mode": "tablet",
+    "elapsed_s": 362.2,
+    "f1": {
+      "drug": "Paracetamol",
+      "drug_dose_mg": 500.0,
+      "binder": "Povidone (PVP K30) at 3-5% w/w",
+      "binder_mg": 15.0,
+      "disintegrant": "Croscarmellose Sodium at 2-4% w/w",
+      "disintegrant_mg": 10.0,
+      "lubricant": "Magnesium Stearate at 0.5-1% w/w",
+      "lubricant_mg": 2.5,
+      "filler": "Microcrystalline Cellulose (MCC PH-102)",
+      "filler_mg": 375.0,
+      "total_mass_mg": 650.0,
+      "manufacturing_process": "Direct Compression",
+      "capping_solution": "Use of a capping agent such as a small amount of talc or silica to prevent capping and punch sticking during the compression process."
+    },
+    "math_r1": {
+      "actual_mass": 902.5,
+      "notes": [
+        "ARITHMETIC ERROR: Declared mass is 650.0 mg, but component sum is 902.5 mg.",
+        "MASS BURDEN FATAL: Actual tablet mass 902.5 mg exceeds 700 mg swallowability limit."
+      ]
+    },
+    "c1": "### Audit of Paracetamol 500 mg Immediate-Release Oral Tablet Formulation\n\n#### 1. Tablet Physics\n- **Capping and Lamination**: Monoclinic Form I of Paracetamol exhibits significant elastic recovery, leading to capping and lamination issues. The proposed use of a capping agent (talc or silica) is a reasonable approach to mitigate these issues.\n- **Elastic Recovery**: The formulation does not address the inherent elastic recovery of Paracetamol Form I, which is a critical limitation.\n\n#### 2. Tooling & Flow\n- **Punch Face Sticking**: The proposed lubricant (Magnesium Stearate at 0.5-1% w/w) is within the acceptable range. However, the high drug load (500 mg) and the presence of a high filler (375 mg) may still pose a risk of punch face sticking, especially under high-speed compression.\n- **Powder Flowability**: The addition of a binder (PVP K30 at 3-5% w/w) and a disintegrant (Croscarmellose Sodium at 2-4% w/w) should improve flowability, but the high drug load may still affect the flow properties.\n\n#### 3. Disintegration & Mass\n- **Disintegration**: The formulation aims for rapid disintegration (<15 min), which is a reasonable target for an immediate-release tablet.\n- **Swallowability Ceiling**: The declared total mass is 650.0 mg, but the actual component sum is 902.5 mg, exceeding the 700 mg limit. This is a critical issue as it directly impacts the swallowability and safety of the tablet.\n\n### Conclusion\n\n**VERDICT: REJECTED**\n\n**Specific Failures:**\n- **Mass Burden**: The actual tablet mass (902.5 mg) exceeds the 700 mg limit, posing a significant risk to patient safety and swallowability.\n- **Capping and Lamination**: The inherent elastic recovery of Paracetamol Form I is not adequately addressed, leading to potential capping and lamination issues.\n\nThese",
+    "f2": {
+      "drug": "Paracetamol",
+      "drug_dose_mg": 500.0,
+      "binder": "Povidone (PVP K30) at 3-5% w/w",
+      "binder_mg": 15.0,
+      "disintegrant": "Croscarmellose Sodium at 2-4% w/w",
+      "disintegrant_mg": 10.0,
+      "lubricant": "Magnesium Stearate at 0.75% w/w",
+      "lubricant_mg": 3.75,
+      "filler": "Microcrystalline Cellulose (MCC PH-102)",
+      "filler_mg": 285.0,
+      "total_mass_mg": 650.0,
+      "manufacturing_process": "Direct Compression",
+      "capping_solution": "Use of a capping agent such as a small amount of talc or silica to prevent capping and punch sticking during the compression process."
+    },
+    "math_r2": {
+      "actual_mass": 813.8,
+      "notes": [
+        "ARITHMETIC ERROR: Declared mass is 650.0 mg, but component sum is 813.8 mg.",
+        "MASS BURDEN FATAL: Actual tablet mass 813.8 mg exceeds 700 mg swallowability limit."
+      ]
+    },
+    "c2": "VERDICT: REJECTED\n\n**Reasons:**\n- **Arithmetic Error:** Declared mass is 650.0 mg, but the component sum is 813.8 mg.\n- **Mass Burden Fatal:** Actual tablet mass 813.8 mg exceeds the 700 mg swallowability limit.",
+    "verdict": "REJECTED"
+  },
+  {
+    "drug": "Ibrutinib (Imbruvica) 140 mg",
+    "mode": "asd",
+    "elapsed_s": 297.5,
+    "f1": {
+      "drug": "Ibrutinib",
+      "drug_dose_mg": 140,
+      "carrier_polymer": "Copovidone (PVP-VA 64)",
+      "polymer_ratio": "1:2",
+      "carrier_mg": 280,
+      "surfactant": "Polysorbate 80",
+      "surfactant_mg": 20,
+      "filler_mg": 10,
+      "total_mass_mg": 410,
+      "physical_state": "Amorphous Solid Dispersion",
+      "patent_design_around": "Utilizes amorphous form to bypass crystalline Form A, enhancing solubility and bioavailability."
+    },
+    "math_r1": {
+      "actual_mass": 450.0,
+      "notes": [
+        "ARITHMETIC ERROR: Declared mass is 410.0 mg, but component sum is 450.0 mg."
+      ]
+    },
+    "c1": "### Audit of Amorphous Solid Dispersion (ASD) Proposal for Ibrutinib\n\n#### 1. Physical Stability\n- **Miscibility**: Copovidone (PVP-VA 64) is known to form amorphous dispersions with hydrophobic drugs like Ibrutinib, suggesting good miscibility.\n- **Moisture Plasticization (Tg Depression)**: Copovidone has a glass transition temperature (Tg) that can be depressed by moisture, which is beneficial for maintaining amorphous state.\n- **Phase Separation/Recrystallization**: The use of a surfactant (Polysorbate 80) can help prevent phase separation and recrystallization, ensuring the amorphous state is maintained.\n\n#### 2. Intestinal Kinetics\n- **Supersaturation Precipitation at Duodenal pH 6.8**: The combination of copovidone and polysorbate 80 can promote supersaturation and subsequent precipitation, mimicking the \"spring and parachute\" effect, which is crucial for enhancing solubility and bioavailability.\n\n#### 3. Excipient Limits & Mass\n- **Swallowability**: The total mass of the formulation is 410 mg, which is within the limit of 500 mg.\n- **FDA IID Compliance**: The formulation uses copovidone and polysorbate 80, both of which are FDA-approved excipients. However, the arithmetic error in the declared mass (410 mg vs. 450 mg) needs to be addressed.\n\n### Conclusion\n\n**VERDICT: REJECTED**\n\n**Explanation of Specific Failure Modes:**\n- **Arithmetic Error**: The declared mass of 410 mg does not match the calculated total mass of 450 mg, which could lead to inconsistencies in the formulation and potential regulatory issues.\n- **Excipient Limit Compliance**: While the formulation is within the swallowability limit, the arithmetic error must be corrected to ensure compliance with the total mass requirement.\n\nCorrecting the arithmetic error and ensuring accurate mass calculations are critical for the formulation's compliance.",
+    "f2": {
+      "drug": "Ibrutinib",
+      "drug_dose_mg": 140,
+      "carrier_polymer": "Copovidone (PVP-VA 64)",
+      "polymer_ratio": "1:2",
+      "carrier_mg": 280,
+      "surfactant": "Polysorbate 80",
+      "surfactant_mg": 20,
+      "filler_mg": 10,
+      "total_mass_mg": 410,
+      "physical_state": "Amorphous Solid Dispersion",
+      "patent_design_around": "Utilizes amorphous form to bypass crystalline Form A, enhancing solubility and bioavailability."
+    },
+    "math_r2": {
+      "actual_mass": 450.0,
+      "notes": [
+        "ARITHMETIC ERROR: Declared mass is 410.0 mg, but component sum is 450.0 mg."
+      ]
+    },
+    "c2": "VERDICT: REJECTED\n\n**Reasons for Rejection:**\n- **Physical Stability:** The declared mass (410 mg) does not match the component sum (450 mg), indicating an arithmetic error. This could lead to inconsistencies in the formulation's physical properties, such as miscibility and moisture plasticization.\n- **Intestinal Kinetics:** The formulation does not address the \"spring and parachute\" effect at duodenal pH 6.8, which is critical for maintaining supersaturation and enhancing bioavailability.\n- **Excipient Limits & Mass:** The total mass of 450 mg exceeds the FDA's swallowability limit of 650 mg, potentially affecting patient compliance and safety.\n- **Compliance:** The arithmetic error and excess mass indicate non-compliance with the specified criteria.\n\nThese issues need to be resolved before the formulation can be considered viable.",
+    "verdict": "REJECTED"
+  }
+]

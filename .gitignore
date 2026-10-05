@@ -1,0 +1,25 @@
+# Large model weights and binary artifacts
+models/*.gguf
+*.gguf
+*.bin
+*.pt
+*.onnx
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# Chat history and export tools
+chat_history.*
+export_chat.py
+
+# IDE and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
